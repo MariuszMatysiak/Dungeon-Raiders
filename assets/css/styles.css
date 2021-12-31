@@ -1,15 +1,27 @@
-:root{
+:root {
     --navColor: #333;
     --fontNavColor: #fff;
+    --fontConentColor: #999;
     --accentColor: #e7723c;
+    --accentColorLight: #ffbc9d;
+    --backgroundColor: #1a1a1a;
+    --font: 'Roboto', sans-serif;
     --fontNav: 'Quicksand', sans-serif;
-  }
+}
 
 * {
     box-sizing: border-box;
-  }
-  /* navbar styles */
-  .navbar {
+}
+
+body {
+    background-color: var(--backgroundColor);
+    font-family: var(--font);
+    color: var(--fontConentColor);
+    margin: 0;
+}
+
+/* navbar styles */
+.navbar {
     background-color: var(--navColor); 
     font-family: var(--fontNav);
     opacity: 0.75;
@@ -19,20 +31,22 @@
     left: 0;
     width: 100%;
     height: 80px;
-  }
-  
-  .logo {
+    z-index: 3;
+}
+
+.logo {
     position: absolute;
     height: 95%;
     width: auto;
     user-select: none;
     left: 20px;
-  }
-  
-  .logo-mobile {
+}
+
+.logo-mobile {
     display: none;
-  }
-  .menu-list {
+}
+
+.menu-list {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -40,25 +54,199 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-  }
-  
-  .menu-item a {
+}
+
+.menu-item a {
     text-decoration: none;
     color: var(--fontNavColor);
     padding: 10px;
     font-size: 24px;
-  }
-  
-  .menu-item a:hover {
+}
+
+.menu-item a:hover {
     color: var(--accentColor);
-  }
-  
-  .menu-item a:active {
+}
+
+.menu-item a:active {
     color: var(--fontConentColor);
-  }
-  
-  .nav-highlight a {
+}
+
+.nav-highlight a {
     color: var(--accentColor);
     border-bottom: 1px solid var(--accentColor);
-  }
-  /*  end of navbar styles */
+}
+/*  end of navbar styles */
+
+/* home page main content styles */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-image {
+    background-image: url("../images/bg-hero.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.home-section-one {
+    height: 60vh;
+    transition: all 0.5s ease;
+    background: inherit;
+    background-attachment: fixed;
+}
+
+.home-section-one p {
+    font-size: 40px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    color: var(--accentColorLight);
+    text-shadow: 2px 2px 4px #262626;
+}
+/* end of home page main styles */
+
+/* Credit for https://css-tricks.com/design-considerations-text-images/ */
+.home-section-one::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65%;
+    background: inherit;
+    background-attachment: fixed;
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+    z-index: 0;
+}
+/* End of credits */
+
+.text {
+    margin: 0;
+    position: relative;
+}
+
+.home-section-two {
+    max-height: 40vh;
+    background-color: var(--navColor);
+    z-index: 1;
+}
+
+.wow-logo {
+    max-width: 80%;
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+
+/* Credits code https://codepen.io/JacobStone420/pen/dyEvl*/
+.Iam {
+    text-align: center;
+    margin-bottom: 5em;
+    font: normal 40px/50px 'Roboto', sans-serif;
+    color: var(--fontConentColor);
+}
+.Iam p {
+    height: 50px;
+    float: left;
+    margin-right: 0.3em;
+}
+.Iam b {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+    top: 40px;
+}
+.Iam .innerIam {
+    display: inline-block;
+    color: #e7723c;
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+
+    /*animation*/
+    -webkit-animation:move 10s;
+        -moz-animation:move 10s;
+        -ms-animation:move 10s;
+        -o-animation:move 10s;
+            animation:move 10s;
+    /*animation-iteration-count*/
+    -webkit-animation-iteration-count:infinite;
+        -moz-animation-iteration-count:infinite;
+        -ms-animation-iteration-count:infinite;
+        -o-animation-iteration-count:infinite;
+            animation-iteration-count:infinite;
+    /*animation-delay*/
+    -webkit-animation-delay:1s;
+        -moz-animation-delay:1s;
+        -ms-animation-delay:1s;
+        -o-animation-delay:1s;
+            animation-delay:1s;
+    }
+    @keyframes move{
+    0%  { top: 0px; }
+    12.5% { top: -50px; }
+    25% { top: -100px; }
+    37.5% { top: -150px; }
+    50% { top: -200px; }
+    62.5% { top: -250px; }
+    75% { top: -300px; }
+    87.5% { top: -350px; }
+    }
+
+    @-webkit-keyframes move {
+    0%  { top: 0px; }
+    12.5% { top: -50px; }
+    25% { top: -100px; }
+    37.5% { top: -150px; }
+    50% { top: -200px; }
+    62.5% { top: -250px; }
+    75% { top: -300px; }
+    87.5% { top: -350px; }
+    }
+    @-moz-keyframes move {
+    0%  { top: 0px; }
+    12.5% { top: -50px; }
+    25% { top: -100px; }
+    37.5% { top: -150px; }
+    50% { top: -200px; }
+    62.5% { top: -250px; }
+    75% { top: -300px; }
+    87.5% { top: -350px; }
+    }
+    @-o-keyframes move {
+    0%  { top: 0px; }
+    12.5% { top: -50px; }
+    25% { top: -100px; }
+    37.5% { top: -150px; }
+    50% { top: -200px; }
+    62.5% { top: -250px; }
+    75% { top: -300px; }
+    87.5% { top: -350px; }
+    }
+    @keyframes move {
+    0%  { top: 0px; }
+    12.5% { top: -50px; }
+    25% { top: -100px; }
+    37.5% { top: -150px; }
+    50% { top: -200px; }
+    62.5% { top: -250px; }
+    75% { top: -300px; }
+    87.5% { top: -350px; }
+}
+/* End of credits */
+
+/* Footer styles */
+footer {
+    display: flex;
+    justify-content: center;
+}
+/* End of footer styles */
