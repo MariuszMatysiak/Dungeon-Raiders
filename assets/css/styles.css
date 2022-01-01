@@ -95,13 +95,14 @@ section {
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
+    background-size: cover;
     overflow: hidden;
     width: 100%;
     padding-top: 50px;
 }
 
 .home-section-one {
-    height: 60vh;
+    height: 80vh;
     transition: all 0.5s ease;
     background: inherit;
     background-attachment: fixed;
@@ -258,11 +259,18 @@ footer {
 /* Mobile Design */
 @media only screen and (max-height: 745px) {
   .wow-logo {
-    max-width: 30%;
+    max-width: 40%;
   }
 }
 
 @media only screen and (max-width: 890px) {
+  .Iam {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 767px) {
   
     .navbar {
       height: 50px;
@@ -309,39 +317,24 @@ footer {
       padding-top: 0;
     }
   
-    .home-section-one {
-      height: 55vh;
-      transition: all 0.5s ease;
-    }
-  
     .home-section-one p {
-      font-size: 28px;
+      font-size: 32px;
       transition: all 0.5s ease;
-    }
-  
-    .home-section-one::before {
-      height: 55%;
-    }
-  
-    .Iam {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .wow-logo {
-      max-width: 40%;
     }
   }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 480px) {
     .home-section-one p {
-      font-size: 22px;
+      margin: 25px 10px;
     }
-  
+
+    .wow-logo {
+      max-width: 60%;
+    }
     
     .Iam {
         font: normal 30px/40px 'Roboto', sans-serif;
-        margin: 2em 0;
+        margin: 5em 0;
       }
   
       @keyframes move{
@@ -403,7 +396,7 @@ footer {
       }
       .Iam b {
         height: 40px;
-        top: 15px;
+        top: 30px;
       }
   }
   
