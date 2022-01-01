@@ -20,7 +20,8 @@
         <nav class="navbar">
             <a href="index.html"><img class="logo logo-desktop" src="assets/images/logo.png" alt="Dungeon Riders logo"></a>
             <a href="index.html"><img class="logo logo-mobile" src="assets/images/logo-sword.png" alt="Dungeon Riders logo for mobile"></a>
-            <ul class="menu-list">
+            <button class="hamburger" id="hamburger" aria-label="menu"><i class="fas fa-bars"></i></button>
+            <ul class="menu-list" id="menu-list">
                 <li class="menu-item nav-highlight"><a href="index.html">Home</a></li>
                 <li class="menu-item"><a href="#">Compositions</a></li>
                 <li class="menu-item"><a href="#">Dunegons</a></li>
@@ -63,5 +64,14 @@
     <footer>
         <p>Join our community! <i class="fab fa-discord"></i></p>
     </footer>
+    <!-- Code credit: https://www.youtube.com/watch?v=ydZc17rlR5E -->
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const menuList = document.getElementById('menu-list');
+        hamburger.addEventListener('click', () => {
+            menuList.classList.toggle('show');
+        })
+    </script>
+    <!-- End of code credit -->
 </body>
 </html>
