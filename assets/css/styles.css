@@ -46,6 +46,10 @@ body {
     display: none;
 }
 
+.hamburger {
+  display: none;
+}
+
 .menu-list {
     list-style: none;
     margin: 0;
@@ -274,6 +278,31 @@ footer {
   
     .logo-desktop {
       display: none;
+    }
+
+    .menu-list {
+      display: none;
+      position: absolute;
+      width: 100%;
+      top:100%;
+      height: auto;
+      text-align: center;
+      background-color: var(--navColor);
+    }
+
+    .menu-list.show {
+      display: block;
+    }
+
+    .hamburger {
+      display: block;
+      position: absolute;
+      top: 5%;
+      right: 5%;
+      font-size: 38px;
+      color: var(--fontNavColor);
+      background-color: transparent;
+      border: 0;
     }
   
     .hero-image {
