@@ -24,7 +24,7 @@ body {
 .navbar {
     background-color: var(--navColor); 
     font-family: var(--fontNav);
-    opacity: 0.75;
+    opacity: 0.95;
     position: fixed;
     display: flex;
     top: 0;
@@ -311,6 +311,10 @@ footer {
       color: var(--fontNavColor);
       background-color: transparent;
       border: 0;
+    }
+
+    li.menu-item {
+      margin: 5px 0;
     }
   
     .hero-image {
