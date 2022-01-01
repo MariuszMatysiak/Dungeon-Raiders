@@ -134,13 +134,13 @@ section {
 }
 
 .home-section-two {
-    max-height: 40vh;
     background-color: var(--navColor);
     z-index: 1;
 }
 
 .wow-logo {
-    max-width: 80%;
+    max-width: 70%;
+    position: absolute;
     transition: all 0.5s ease;
     z-index: 1;
 }
@@ -148,7 +148,7 @@ section {
 /* Credits code https://codepen.io/JacobStone420/pen/dyEvl*/
 .Iam {
     text-align: center;
-    margin-bottom: 5em;
+    margin: 3em 0;
     font: normal 40px/50px 'Roboto', sans-serif;
     color: var(--fontConentColor);
 }
@@ -252,6 +252,12 @@ footer {
 /* End of footer styles */
 
 /* Mobile Design */
+@media only screen and (max-height: 745px) {
+  .wow-logo {
+    max-width: 30%;
+  }
+}
+
 @media only screen and (max-width: 890px) {
   
     .navbar {
@@ -288,22 +294,25 @@ footer {
       height: 55%;
     }
   
-    .wow-logo {
-      max-width: 60%;
-      transition: all 0.5s ease;
-    }
-  
     .Iam {
       display: flex;
       flex-direction: column;
     }
+
+    .wow-logo {
+      max-width: 40%;
+    }
   }
   
   @media only screen and (max-width: 600px) {
+    .home-section-one p {
+      font-size: 22px;
+    }
   
-  
+    
     .Iam {
         font: normal 30px/40px 'Roboto', sans-serif;
+        margin: 2em 0;
       }
   
       @keyframes move{
@@ -365,7 +374,7 @@ footer {
       }
       .Iam b {
         height: 40px;
-        top: 30px;
+        top: 15px;
       }
   }
   
