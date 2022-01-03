@@ -15,7 +15,6 @@
 }
 
 body {
-    background-color: var(--backgroundColor);
     font-family: var(--font);
     color: var(--fontConentColor);
     margin: 0;
@@ -89,6 +88,10 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+main {
+  min-height: calc(100vh - 50px);
 }
 
 .hero-image {
@@ -256,6 +259,7 @@ footer {
   justify-content: center;
   align-items: center;
   height: 50px;
+  background-color: var(--backgroundColor);
 }
 
 footer p {
