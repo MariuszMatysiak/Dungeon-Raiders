@@ -5,3 +5,35 @@
 # User Experience (UX)
 ## User Stories
 -----
+
+## User stories
+* First Time Visitor Goals
+    * As a First Time Visitor, I want to easly understand the main purpose of the site and learn more about the what the site has to offer.
+    * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+    * As a First Time Visitor, I want to be able to experience site's contents.
+* Returning Visitor Goals
+    * As a Returning Visitor, I want to find information about certain boss fights.
+    * As a Returning Visitor, I want to find information about team compositions.
+    * As a Returning Visitor, I want to find the community links to discord/form part.
+* Frequent User Goals
+    * As a Frequent User, I want to revise the tips for certain dungeon/boss fights.
+    * As a Frequent User, I want to check if there any new changes among the best compositions.
+    * As a Frequent User, I want to be able to submit a form to share my favourite team compositions and join the theorycrafting team on discord.
+## Design
+* Colour Scheme
+    * 
+* Topography 
+    * 
+* Imagery
+    * 
+## Wireframes
+* Desktop Wireframe - 
+* Mobile Wireframe -
+# Features
+* Responsive on all device sizes
+* Interactive elements
+# Technologies Used
+## Languages Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+#
