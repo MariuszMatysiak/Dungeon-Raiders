@@ -95,14 +95,18 @@ main {
 }
 
 .hero-image {
-    background-image: url("../images/bg-hero.png");
     background-repeat: no-repeat;
-    background-position: center top;
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
     width: 100%;
-    padding-top: 50px;
+}
+
+.hero-image-home {
+  background-image: url("../images/bg-hero.png");
+  background-position: center top;
+  padding-top: 50px;
+
 }
 
 .home-section-one {
@@ -119,7 +123,6 @@ main {
     color: var(--accentColorLight);
     text-shadow: 2px 2px 4px #262626;
 }
-/* end of home page main styles */
 
 /* Credit for https://css-tricks.com/design-considerations-text-images/ */
 .home-section-one::before {
@@ -253,6 +256,65 @@ main {
 }
 /* End of credits */
 
+/* end of home page main styles */
+
+/* Contact page styles */
+.contact-main {
+  padding-top: 100px;
+}
+
+.hero-image-contact {
+  background-image: url("../images/hero-image-contact.jpg");
+  background-position: left bottom;
+}
+/* tutaj robie */
+.section-form {
+  text-align: left;
+}
+
+form {
+  background-color: var(--navColor);
+  opacity: 0.85;
+}
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 15px;
+  border-radius: 8px;
+  height: 10px;
+  width: 100%;
+}
+
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 25px;
+  border-radius: 8px;
+  height: 15px;
+  width: 100%;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button-form {
+  appearance: none;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  background: var(--accentColor);
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+/* End of contact page styles */
+
 /* Footer styles */
 footer {
   display: flex;
@@ -350,7 +412,11 @@ font-size: 24px;
     .hero-image {
       padding-top: 0;
     }
-  
+/* contact page */
+    .hero-image-contact {
+      padding-top: 50px;
+    }
+/* end contact page */
     .home-section-one p {
       font-size: 32px;
       transition: all 0.5s ease;
