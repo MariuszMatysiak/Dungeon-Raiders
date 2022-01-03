@@ -29,11 +29,93 @@
             </ul>
         </nav>
     </header>
-    <main>
-        
+    <main class="contact-main hero-image hero-image-contact">
+        <section class="section-form">
+
+            <form action="https://formdump.codeinstitute.net" method="POST">
+                <fieldset>
+                    <legend><h2>Join the community of Dungeon Raiders!</h2></legend>
+                    <h2>Fill in the form to let us help you find your team!</h2>
+                    <div>
+                        <label for="nick-field">Nickname: </label>
+                        <input id="nick-field" type="text" name="nick_name" placeholder="Your Nickname" required>
+                    </div>
+                    <div>
+                        <label for="b-tag">Battle tag: </label>
+                        <input id="b-tag" type="text" name="battle_tag" placeholder="Your Battletag" required>
+                    </div>
+                    <div>
+                        <label for="e-mail">E-mail: </label>
+                        <input id="e-mail" type="email" name="e_mail" placeholder="Your E-mail" required>
+                    </div>
+                    <div>
+                        <label for="region-field">Region: </label>
+                        <select id="region-field" name="region" aria-placeholder="EU" required>
+                            <option value="EU">EU</option>
+                            <option value="NA">NA</option>
+                            <option value="KR">KR</option>
+                            <option value="CH">CH</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="realm-field">Realm: </label>
+                        <input id="realm-field" type="text" name="realm_field" placeholder="Your Realm" required>
+                    </div>
+                    <div>
+                        <label for="class-field">Class: </label>
+                        <select id="class-field" name="class-field" required>
+                            <option value="warrior">Warrior</option>
+                            <option value="paladin">Paladin</option>
+                            <option value="hunter">Hunter</option>
+                            <option value="rogue">Rogue</option>
+                            <option value="priest">Priest</option>
+                            <option value="shaman">Shaman</option>
+                            <option value="mage">Mage</option>
+                            <option value="warlock">Warlock</option>
+                            <option value="monk">Monk</option>
+                            <option value="druid">Druid</option>
+                            <option value="demon-hunter">Demon Hunter</option>
+                            <option value="death-knight">Death Knight</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="roles">Role: </label>
+                        <input id="roles" list="role" name="class-role" required>
+                        <datalist id="role">
+                            <option value="Tank">
+                            <option value="Healer">
+                            <option value="DPS Melee">
+                            <option value="DPS Ranged">
+                        </datalist>
+                    </div>
+                    <div>
+                        <p>How many dungeons you do a week?</p>
+                        <input class="radio" id="0-1dungeon-runs" name="dungeons-a-week" value="0-1runs" type="radio">
+                        <label for="0-1dungeon-runs">0-1 Dungeon Runs</label>
+                        <input class="radio" id="2-4dungeon-runs" name="dungeons-a-week" value="2-4runs" type="radio">
+                        <label for="2-4dungeon-runs">2-4 Dungeon Runs</label>
+                        <input class="radio" id="5-9dungeon-runs" name="dungeons-a-week" value="5-9runs" type="radio">
+                        <label for="5-9dungeon-runs">5-9 Dungeon Runs</label>
+                        <input class="radio" id="10+dungeon-runs" name="dungeons-a-week" value="10+runs" type="radio">
+                        <label for="10+dungeon-runs">10+ Dungeon Runs</label>
+                    </div>
+                    <p>Your Comment:</p>
+                    <textarea id="comment" rows="4" cols="40" name="comment" placeholder="Leave your comment here..."></textarea>
+                    <div>
+                        <button class="button-form" type="submit">
+                            <strong>Join!</strong>
+                        </button>
+                    </div>
+    
+                    
+                    
+                    
+                    <p>Make sure to join us on Discord for live discussion and theorycrafting! <a href="http://discord.com" target="blank" rel="noopener" aria-label="Discord"><i class="fab fa-discord"></i></a></p>
+                </fieldset>
+            </form>
+        </section>
     </main>
     
-
 <footer>
     <p>Join our community! </p>
     <a href="https://discord.com/" target="_blank" rel="noopener" aria-label="Discord">
