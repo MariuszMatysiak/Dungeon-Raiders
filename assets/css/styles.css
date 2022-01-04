@@ -262,6 +262,11 @@ main {
 
 /* end of home page main styles */
 
+/* Compositions page styles */
+.hero-image-comps img{
+  max-width: 100%;
+}
+/* End of compositions page styles */
 /* Contact page styles */
 .contact-main {
   padding-top: 100px;
