@@ -4,7 +4,8 @@
     --fontConentColor: #999;
     --accentColor: #e7723c;
     --accentColorLight: #ffbc9d;
-    --backgroundColor: #1a1a1a;
+    --backgroundColor: #262626;
+    --footerColor: #1a1a1a;
     --font: 'Roboto', sans-serif;
     --fontNav: 'Quicksand', sans-serif;
     --fontFooter: 'Inconsolata', monospace;
@@ -17,6 +18,7 @@
 body {
     font-family: var(--font);
     color: var(--fontConentColor);
+    background-color: var(--backgroundColor);
     margin: 0;
 }
 
@@ -321,7 +323,7 @@ footer {
   justify-content: center;
   align-items: center;
   height: 50px;
-  background-color: var(--backgroundColor);
+  background-color: var(--footerColor);
 }
 
 footer p {
