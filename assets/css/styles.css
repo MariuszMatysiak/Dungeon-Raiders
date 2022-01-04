@@ -94,6 +94,7 @@ section {
 
 main {
   min-height: calc(100vh - 50px);
+  padding-top: 80px;
 }
 
 .hero-image {
@@ -108,6 +109,7 @@ main {
   background-image: url("../images/bg-hero.png");
   background-position: center top;
   padding-top: 50px;
+  overflow: hidden;
 
 }
 
@@ -269,7 +271,7 @@ main {
   background-image: url("../images/hero-image-contact.jpg");
   background-position: left bottom;
 }
-/* tutaj robie */
+
 .section-form {
   text-align: left;
 }
@@ -306,8 +308,7 @@ select {
 .button-form {
   appearance: none;
   margin-top: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0;
   border: none;
   background: var(--accentColor);
   border-radius: 5px;
@@ -365,6 +366,9 @@ font-size: 24px;
 }
 
 @media only screen and (max-width: 767px) {
+  main {
+    padding-top: 50px;
+  }
   
     .navbar {
       height: 50px;
@@ -414,6 +418,11 @@ font-size: 24px;
     .hero-image {
       padding-top: 0;
     }
+    .home-section-one p {
+      font-size: 32px;
+      transition: all 0.5s ease;
+    }
+
 /* contact page */
     .hero-image-contact {
       padding-top: 50px;
