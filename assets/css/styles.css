@@ -325,19 +325,19 @@ main {
 /* End of compositions page styles */
 
 /* Dungeons main content style */
-.dungeon-section {
-  margin: 20px;
-}
 .dungeon-image-wrapper {
   display: flex;
   flex-wrap: wrap;
 }
-#mist, #dos {
+
+.dungeon-section {
   display: none;
 }
-#mist.show, #dos.show {
+/* Code Credit https://css-tricks.com/a-whole-website-in-a-single-html-file/ */
+section:target {
   display: block;
 }
+/* End of code credit */
 /* End of Dungeons main content style */
 
 /* Contact page styles */
