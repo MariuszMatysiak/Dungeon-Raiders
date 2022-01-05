@@ -413,6 +413,10 @@ color: var(--fontConentColor);
 font-family: var(--fontFooter);
 }
 
+footer span {
+  text-transform: uppercase;
+}
+
 footer a {
 text-decoration: none;
 margin: 0 4px;
