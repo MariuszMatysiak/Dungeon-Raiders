@@ -84,7 +84,7 @@ body {
 /*  end of navbar styles */
 
 /* home page main content styles */
-section {
+.section {
     display: flex;
     flex-direction: column;
     justify-content: center;
