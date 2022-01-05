@@ -324,6 +324,22 @@ main {
 }
 /* End of compositions page styles */
 
+/* Dungeons main content style */
+.dungeon-section {
+  margin: 20px;
+}
+.dungeon-image-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+#mist, #dos {
+  display: none;
+}
+#mist.show, #dos.show {
+  display: block;
+}
+/* End of Dungeons main content style */
+
 /* Contact page styles */
 .contact-main {
   padding-top: 100px;
