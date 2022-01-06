@@ -102,29 +102,32 @@
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 * [JS](https://en.wikipedia.org/wiki/JavaScript)
 
+# Technologies Used
+## Languages Used:
+* HTML5
+* CSS3
+* JavaScript
+
 # Testing
 ## Testing User Stories from User Experience
 
 ### First Time Visitor Goals
 * As a First Time Visitor, As a First Time Visitor, I want to easly understand the main purpose of the site and learn more about the what the site has to offer.
-    - 
- 
+    * a
 * As a First Time Visitor,  want to be able to easily navigate throughout the site to find content.
-    - 
-    - 
+    * a
 * As a First Time Visitor, I want to be able to experience site's contents.
-    - 
-    - 
+    * a
 ### Returning Visitors Goals
 * As a Returning Visitor, I want to find information about certain boss fights.
-    - 
-    -  
+    * a
+    * a
 * As a Returning Visitor, I want to find information about team compositions.
-    - 
-    - 
+    * a
+    * a
 * As a Returning Visitor, I want to find the community links to discord and form.
-    - 
-    - 
+    * a
+    * a
 
 ## HTML
 * The [W3C School HTML Validator](https://validator.w3.org/) 
@@ -150,8 +153,4 @@
 
 
 
-# Technologies Used
-## Languages Used:
-* HTML5
-* CSS3
-* JavaScript
+
