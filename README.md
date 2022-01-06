@@ -49,17 +49,53 @@
     ![Contact Hero Image](assets/images/hero-image-contact.jpg)
 
 ## Wireframes
+
+### The initial wireframes prior the start of development
+
 * Desktop Wireframe - [Full pdf access here](assets/documentation/desktop-wireframes.pdf)
 
 ![Desktop Wireframe](assets/documentation/wireframe-desktop.png)
+
 
 * Mobile Wireframe - [Full pdf access here](assets/documentation/mobile-wireframes.pdf)
 
 ![Mobile Wireframe](assets/documentation/wireframe-mobile.png)
 
 # Features
-* Responsive on all device sizes
-* Interactive elements
+
+## Nav Bar
+
+* Navigation Bar has been featured on all four pages. On the desktop view users can experience the full logo in the left segment. Navigation links are provided in the right side of the Navigation Bar with the active one being coloured and underlined. The colour of the link changes uppon hovering.
+
+![Navigation Bar Desktop](assets/documentation/navbar-desktop.png)
+
+* On the mobile view users can experience logo miniature in the left segment. Navigation links are provided inside the hamburger button.
+
+![Navigation Bar Mobile](assets/documentation/navbar-mobile.png)
+
+* Dropdown menu on the mobile view continues to highlight the current page.
+
+![Dropdown Menu Mobile](assets/documentation/navbar-mobile-active.png)
+
+## Hero Image
+
+* Homepage's hero image comes with hook text which is styled with blur and shadow for better user experience reading the content. Desktop view below.
+
+![Home Hero Image](assets/documentation/home-hero-image.png)
+
+* Mobile view below. 
+
+![Home Hero Image](assets/documentation/home-hero-image-mobile.png)
+
+## Game's Logo
+
+* Two main sections are divided with World of Warcraft: Shadowlands logo.
+
+![Game Logo](assets/documentation/home-wow-logo.png)
+
+
+
+
 # Technologies Used
 ## Languages Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
