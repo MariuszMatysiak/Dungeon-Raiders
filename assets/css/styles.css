@@ -301,8 +301,15 @@ main {
   border-right: none;
 }
 
-.sticky-element h3 {
-  color:var(--fontNavColor)
+.sticky-element {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 80px;
+  background-color: var(--backgroundColor);
+}
+
+.sticky-element-comps h3 {
+  color:var(--fontNavColor);
 }
 
 .styled-text {
@@ -329,16 +336,24 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 20px 0;
+  padding: 10px 0;
+  z-index: 2;
 }
 
 .dungeon-image {
-  padding: 0 4px;
+  padding: 0 2px;
   user-select: none;
 }
 
 .dungeon-section {
   display: none;
+}
+
+.sticky-dung-title {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 100px;
+  background-color: var(--backgroundColor);
 }
 
 section:target {
@@ -349,7 +364,6 @@ section:target {
 .header-dungeons {
   margin: 0;
   padding: 90px 0 20px 0;
-  font-size: 55px;
 }
 
 .grid-bosses {
@@ -372,12 +386,8 @@ section:target {
 .grid-item-bosses:nth-child(2n) {
   border-right: none;
 }
-.dungeon-menu-header > h2 {
-  color: var(--accentColor);
-}
 
 .dungeon-image {
-  padding: 0 10px;
   opacity: 0.6;
 }
 
@@ -518,21 +528,35 @@ font-size: 24px;
 /* Responsive Design */
 @media only screen and (min-width: 1600px) {
   /* Home page */
+  .text h1 {
+    font-size: 60px;
+  }
+
   .text p {
     font-size: 50px;
   }
+
   /* end of home page */
   /* Composition page  */
+
   .comps-text {
     margin: 0 3em;
   }
+
   /* End of composition page */
   /* Dungeon page */
+
   .header-dungeons {
-    padding: 90px 0;
-    font-size: 70px;
+    padding: 20px 0;
   }
-  
+
+  .sticky-dung-title {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 210px;
+    background-color: var(--backgroundColor);
+  }
+
   .three {
     grid-template-columns: 33% 33% 33%;
   }
@@ -552,10 +576,6 @@ font-size: 24px;
   .grid-item-bosses:nth-last-child(1) {
     border-right: none;
   }
-  
-  .dungeon-image-wrapper {
-    margin: 40px 0;  
-  }
 
   .dungeon-image {
     padding: 0 10px;
@@ -571,7 +591,9 @@ font-size: 24px;
   .section-form {
     padding-right: 10%;
   }
+
   /* End of Contact Page */
+
 }
 
 @media only screen and (max-height: 745px) {
@@ -585,13 +607,24 @@ font-size: 24px;
     display: flex;
     flex-direction: column;
   }
+
   /* Dungeons page  */
   .header-dungeons {
     font-size: 40px;
   }
+
+  .sticky-element {
+    top: 80px;
+  }
+
+  .dungeon-image {
+    opacity: 1;
+  }
+
   .grid-bosses-mobile {
     grid-template-columns: 100%;
   }
+
   .grid-item-bosses {
     border-right: none;
     border-bottom: 1px solid var(--navColor);
@@ -601,8 +634,10 @@ font-size: 24px;
   .grid-item-bosses:nth-last-child(1) {
     border-bottom: none;
   }
+
   /* End of Dungeon page */
   /* Contact Page */
+
   .hero-image-contact {
     background-position: left bottom;
   }
@@ -668,18 +703,25 @@ font-size: 24px;
     }
 
     /* Compositions page */
+
     .grid-container {
       grid-template-columns: 100%;
     }
+
     .grid-item {
       border-right: none;
       border-bottom: 1px solid var(--navColor);
     }
+
     .grid-item:nth-child(4n) {
       border-bottom: none;
     }
 
     .sticky-element {
+      top: 50px;
+    }
+
+    .sticky-element-comps {
       position: sticky;
       position: -webkit-sticky;
       top: 50px;
@@ -690,23 +732,28 @@ font-size: 24px;
     /* End of compositions page */
     /* Dungeons page */
     .header-dungeons {
-      padding: 60px 0 20px 0;
+      padding: 20px 0;
+    }
+
+    .dungeon-image-wrapper {
+      padding: 10px 0 0 0;
+    }
+
+    .dungeon-image a img {
+      width: 56px;
     }
 
     .grid-item-bosses {
       padding: 0;
     }
 
-    .dungeon-image-wrapper {
-      margin: 50px 0;
-    }
-
     /* End of Dungeons page */
-/* contact page */
+    /* contact page */
+
     .hero-image-contact {
       padding-top: 50px;
     }
-/* end contact page */
+    /* end contact page */
   }
   
   @media only screen and (max-width: 480px) {
@@ -784,25 +831,38 @@ font-size: 24px;
         float: left;
         margin-right: 0.3em;
       }
-      .Iam b {
+      .Iam .filter {
         height: 40px;
         top: 30px;
       }
+
       /* Dungeon page */
+
       .dungeon-image {
-        opacity: 1;
+        padding: 0;
       }
+
+      .dungeon-image a img {
+        width: 40px;
+      }
+
+      .header-dungeons {
+        font-size: 30px;
+      }
+
       /* end of dungeon page */
       /* Contact page */
+
       .section-form {
         padding: 0px;
       }
+
       /* End of contact page */
       /* Footer styling */
+
       footer p span {
         display: none;
       }
+
       /* End of footer styling */
-  }
-  
-  /* End of mobile design */
+  }/* End of mobile design */
