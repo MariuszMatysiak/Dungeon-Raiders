@@ -132,10 +132,10 @@
 ![HTML Validator](assets/documentation/validator-html-home.png)
 
 - I fixed errors accured during validation.
-- On the [Home Page](documentation/error-validator-html-home.png) there was an error in the credited code from CodePen, there was `<div>` element inside of `<b>` element. Also `<section>' were missing headings, so I added to the first section, and section with wow logo changed to `<figure>' element, and section with guide info chnaged to `<aside>`.
+- On the [Home Page](assets/documentation/error-validator-html-home.png) there was an error in the credited code from CodePen, there was `<div>` element inside of `<b>` element. Also `<section>' were missing headings, so I added to the first section, and section with wow logo changed to `<figure>' element, and section with guide info chnaged to `<aside>`.
 - On the [Compositions Page](assets/documentation/error-validator-html-comps.png) there was an error with `<p>` element without closing tag, so I removed it because during content implementation I haven't notice it.
 - On the [Dungeons Page](assets/documentation/error-validator-html-dungs.png) there were errors with missing `<alt>` elements in the `<img>` element so I've add it, and warning with section without heading.
-- On the [Contant Page](assets/documentation/error-validator-html-dungs.png) there were errors with `<aria-placeholder>` and `<required>` element in the form so I removed it.
+- On the [Contant Page](assets/documentation/error-validator-html-contact.png) there were errors with `<aria-placeholder>` and `<required>` element in the form so I removed it.
 
 ## CSS
 * The [W3C School CSS Validator](https://jigsaw.w3.org/css-validator/)
