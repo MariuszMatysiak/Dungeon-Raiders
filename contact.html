@@ -35,6 +35,7 @@
             <form class="styled-text" action="https://formdump.codeinstitute.net" method="POST">
                 <fieldset>
                     <legend class="header"><h2>Join the community of Dungeon Raiders!</h2></legend>
+                    <h3>Fill in the form to let us help you find your team!</h3>
                     <div>
                         <label for="nick-field">Nickname: </label>
                         <input id="nick-field" type="text" name="nick_name" placeholder="Your Nickname" required>
@@ -89,17 +90,20 @@
                     </div>
                     <div>
                         <p>How many dungeons you do a week?</p>
-                        <input class="radio" id="0-1dungeon-runs" name="dungeons-a-week" value="0-1runs" type="radio">
+                        <input class="radio" id="0-1dungeon-runs" name="dungeons-a-week" value="0-1runs" type="radio" checked>
                         <label for="0-1dungeon-runs">0-1 Dungeon Runs</label>
+                        <br>
                         <input class="radio" id="2-4dungeon-runs" name="dungeons-a-week" value="2-4runs" type="radio">
                         <label for="2-4dungeon-runs">2-4 Dungeon Runs</label>
+                        <br>
                         <input class="radio" id="5-9dungeon-runs" name="dungeons-a-week" value="5-9runs" type="radio">
                         <label for="5-9dungeon-runs">5-9 Dungeon Runs</label>
+                        <br>
                         <input class="radio" id="10+dungeon-runs" name="dungeons-a-week" value="10+runs" type="radio">
                         <label for="10+dungeon-runs">10+ Dungeon Runs</label>
                     </div>
                     <p>Your Comment:</p>
-                    <textarea id="comment" rows="4" cols="40" name="comment" placeholder="Leave your comment here..."></textarea>
+                    <textarea id="comment" rows="4" cols="40" name="comment" placeholder="Comment..."></textarea>
                     <div>
                         <button class="button-form" type="submit">
                             <strong>Join!</strong>
