@@ -610,6 +610,11 @@ font-size: 24px;
         height: 40px;
         top: 30px;
       }
+      /* Footer styling */
+      footer p span {
+        display: none;
+      }
+      /* End of footer styling */
   }
   
   /* End of mobile design */
