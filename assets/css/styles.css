@@ -288,13 +288,16 @@ main {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  text-align: center;
   border-right: 1px solid var(--navColor);
   margin: 30px 0;
 }
 
 .grid-item:nth-child(2n) {
   border-right: none;
+}
+
+.sticky-element h3 {
+  color:var(--fontNavColor)
 }
 
 .styled-text {
@@ -667,6 +670,14 @@ font-size: 24px;
     }
     .grid-item:nth-child(4n) {
       border-bottom: none;
+    }
+
+    .sticky-element {
+      position: sticky;
+      position: -webkit-sticky;
+      top: 50px;
+      background-color: var(--backgroundColor);
+      width: 100%;
     }
 
     /* End of compositions page */
