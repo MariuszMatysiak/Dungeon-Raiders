@@ -34,6 +34,7 @@ body {
     width: 100%;
     height: 80px;
     z-index: 3;
+    user-select: none;
 }
 
 .logo {
@@ -143,6 +144,7 @@ main {
 .home-section-two {
     background-color: var(--navColor);
     z-index: 1;
+    user-select: none;
 }
 
 .wow-logo {
@@ -150,6 +152,7 @@ main {
     position: absolute;
     transition: all 0.5s ease;
     z-index: 1;
+    user-select: none;
 }
 
 /* Credits code https://codepen.io/JacobStone420/pen/dyEvl*/
@@ -268,10 +271,12 @@ main {
   color: var(--accentColorLight);
   text-shadow: 2px 2px 4px #000000;
   text-align: center;
+  user-select: none;
 }
 
 .hero-image-comps img{
   max-width: 100%;
+  user-select: none;
 }
 
 .grid-container {
@@ -329,6 +334,7 @@ main {
 
 .dungeon-image {
   padding: 0 4px;
+  user-select: none;
 }
 
 .dungeon-section {
@@ -478,6 +484,7 @@ footer {
   align-items: center;
   height: 50px;
   background-color: var(--footerColor);
+  user-select: none;
 }
 
 footer p {
