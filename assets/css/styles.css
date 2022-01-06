@@ -328,16 +328,66 @@ main {
 .dungeon-image-wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.dungeon-image {
+  padding: 0 4px;
 }
 
 .dungeon-section {
   display: none;
 }
-/* Code Credit https://css-tricks.com/a-whole-website-in-a-single-html-file/ */
+
 section:target {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
-/* End of code credit */
+
+.header-dungeons {
+  margin: 0;
+  padding: 90px 0 20px 0;
+  font-size: 55px;
+}
+
+.grid-bosses {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 5px;
+  grid-row-gap: 20px;
+  margin: 0 10px;
+}
+
+.grid-item-bosses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  border-right: 1px solid var(--navColor);
+  margin: 30px 0;
+}
+
+.grid-item-bosses:nth-child(2n) {
+  border-right: none;
+}
+.dungeon-menu-header > h2 {
+  color: var(--accentColor);
+}
+
+.dungeon-image {
+  padding: 0 10px;
+  opacity: 0.6;
+}
+
+.dungeon-image:hover {
+  opacity: 1;
+}
+
+.dungeon-image a img {
+  width: 86px;
+}
+
 /* End of Dungeons main content style */
 
 /* Contact page styles */
@@ -465,13 +515,55 @@ font-size: 24px;
 
 /* Responsive Design */
 @media only screen and (min-width: 1600px) {
+  /* Home page */
   .text p {
     font-size: 50px;
   }
-
+  /* end of home page */
+  /* Composition page  */
   .comps-text {
     margin: 0 3em;
   }
+  /* End of composition page */
+  /* Dungeon page */
+  .header-dungeons {
+    padding: 90px 0;
+    font-size: 70px;
+  }
+  
+  .three {
+    grid-template-columns: 33% 33% 33%;
+  }
+
+  .four {
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+
+  .five {
+    grid-template-columns: 20% 20% 20% 20% 20%;
+  }
+  
+  .grid-item-bosses:nth-child(2n) {
+    border-right: 1px solid var(--navColor);
+  }
+  
+  .grid-item-bosses:nth-last-child(1) {
+    border-right: none;
+  }
+  
+  .dungeon-image-wrapper {
+    margin: 40px 0;  
+  }
+
+  .dungeon-image {
+    padding: 0 10px;
+  }
+
+  .dungeon-image a img {
+    width: 100%;
+  }
+
+  /* End of dungeon page */
   /* Contact Page */
   
   .section-form {
@@ -491,6 +583,23 @@ font-size: 24px;
     display: flex;
     flex-direction: column;
   }
+  /* Dungeons page  */
+  .header-dungeons {
+    font-size: 40px;
+  }
+  .grid-bosses-mobile {
+    grid-template-columns: 100%;
+  }
+  .grid-item-bosses {
+    border-right: none;
+    border-bottom: 1px solid var(--navColor);
+    padding: 0 100px;
+  }
+
+  .grid-item-bosses:nth-last-child(1) {
+    border-bottom: none;
+  }
+  /* End of Dungeon page */
   /* Contact Page */
   .hero-image-contact {
     background-position: left bottom;
@@ -569,6 +678,20 @@ font-size: 24px;
     }
 
     /* End of compositions page */
+    /* Dungeons page */
+    .header-dungeons {
+      padding: 60px 0 20px 0;
+    }
+
+    .grid-item-bosses {
+      padding: 0;
+    }
+
+    .dungeon-image-wrapper {
+      margin: 50px 0;
+    }
+
+    /* End of Dungeons page */
 /* contact page */
     .hero-image-contact {
       padding-top: 50px;
@@ -655,6 +778,11 @@ font-size: 24px;
         height: 40px;
         top: 30px;
       }
+      /* Dungeon page */
+      .dungeon-image {
+        opacity: 1;
+      }
+      /* end of dungeon page */
       /* Contact page */
       .section-form {
         padding: 0px;
