@@ -22,27 +22,41 @@
     * As a Frequent User, I want to be able to submit a form to share my favourite team compositions and join the theorycrafting team on discord.
 ## Design
 * Colour Scheme
-     ![Colour Scheme](assets/documentation/coolors.png)
+
+    ![Colour Scheme](assets/documentation/coolors.png)
     * Colours used in this project: Jet- Navigation Bar Colour, White- Font Navigation Bar Colour, Spanish Gray- Font for home guide info, Mandarin- as an Accent Colour, Peach Crayola- as an alternative Accent Colour, 262626 Earie Black- as a Main Background Colour, 1A1A1A Earie Black- as a Footer Background Colour.
 * Topography
 
     * Font Quicksand Regular 400
+
     ![Font Quicksand](assets/documentation/font-quicksand.png)
+
     * Font Incosolata Regular 400
+
     ![Font Inconsolata](assets/documentation/font-inconsolata.png)
+
     * Font Roboto Thin 100, Regular 400
+
     ![Font Roboto](assets/documentation/font-roboto.png)
+
 * Imagery
     * I've used three imagery pieces to set the tone and colour pallete of the game, providing hero images for index.html, compositions.html and contact.html 
+
     ![Home Hero Image](assets/images/bg-hero.png)
+
     ![Compositions Hero Image](assets/images/hero-image-comps-.jpg)
+
     ![Contact Hero Image](assets/images/hero-image-contact.jpg)
 
 ## Wireframes
 * Desktop Wireframe - [Full pdf access here](assets/documentation/desktop-wireframes.pdf)
+
 ![Desktop Wireframe](assets/documentation/wireframe-desktop.png)
+
 * Mobile Wireframe - [Full pdf access here](assets/documentation/mobile-wireframes.pdf)
+
 ![Mobile Wireframe](assets/documentation/wireframe-mobile.png)
+
 # Features
 * Responsive on all device sizes
 * Interactive elements
