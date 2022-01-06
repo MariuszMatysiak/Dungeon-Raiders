@@ -63,6 +63,8 @@
 
 # Features
 
+# Home Page
+
 ## Nav Bar
 
 * Navigation Bar has been featured on all four pages. On the desktop view users can experience the full logo in the left segment. Navigation links are provided in the right side of the Navigation Bar with the active one being coloured and underlined. The colour of the link changes uppon hovering.
@@ -93,25 +95,97 @@
 
 ![Game Logo](assets/documentation/home-wow-logo.png)
 
+## Home Guide Info + Animation
+
+* Text informing about the guides and an animation bringing all of the 8 dungeons to the viewers attention in an exciting and dynamic way. View on the desktop.
+
+![Home Guide Info](assets/documentation/home-guide-info.png)
+
+* View on the Mobile screen:
+
+![Home Guide Info Mobile](assets/documentation/home-guide-info-mobile.png)
+
+## Footer
+
+* A responsive text in the footer area provides the right amount of content for desktop and mobile for better visual user experience with a link to the discord channel attached. View on the desktop.
+
+![Footer Desktop](assets/documentation/footer-desktop.png)
+
+* View on the mobile.
+
+![Footer Mobile](assets/documentation/footer-mobile.png)
+
+# Compositions Page
+
+* A Hero Image on a Compositions presents a group of heroes encouraging the site Visitor to dig into content. 
+
+![Compositions Hero Image](assets/documentation/comps-hero-image.png)
+
+* All the compositions are presented with two sets of 5 icons. First set presents role distribution inside the team(Tank- Shield Icon, Healer- Plus Icon, DPS-Sword Icon) and the Second set presents the icons of Character Classes used in a certain composition. View on desktop.
+
+![Compositions Content Desktop](assets/documentation/comps-content-desktop.png)
+
+* View on mobile.
+
+![Composition Cotent Mobile]()
+
+
+
+
+
+# Contact Page 
+
+## Hero Image  
+* A Champion presented on the Hero Image represents the role of a recruiter.
+![Contact Hero Image](assets/images/hero-image-contact.jpg)
+
+## Form 
+
+* 
 
 
 
 # Technologies Used
+
 ## Languages Used
+
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 * [JS](https://en.wikipedia.org/wiki/JavaScript)
 
-# Technologies Used
-## Languages Used:
-* HTML5
-* CSS3
-* JavaScript
 
 # Testing
+## Validation Code
+### HTML
+
+
+The [W3C School HTML Validator](https://validator.w3.org/) 
+
+![HTML Validator](assets/documentation/validator-html-home.png)
+
+- I fixed errors accured during validation.
+- On the [Home Page](assets/documentation/error-validator-html-home.png) there was an error in the credited code from CodePen, there was `<div>` element inside of `<b>` element. Also `<section>' were missing headings, so I added to the first section, and section with wow logo changed to `<figure>' element, and section with guide info chnaged to `<aside>`.
+- On the [Compositions Page](assets/documentation/error-validator-html-comps.png) there was an error with `<p>` element without closing tag, so I removed it because during content implementation I haven't notice it.
+- On the [Dungeons Page](assets/documentation/error-validator-html-dungs.png) there were errors with missing `<alt>` elements in the `<img>` element so I've add it, and warning with section without heading.
+- On the [Contant Page](assets/documentation/error-validator-html-contact.png) there were errors with `<aria-placeholder>` and `<required>` element in the form so I removed it.
+
+### CSS
+
+* The [W3C School CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+![CSS Validator](assets/documentation/validator-css.png)
+
+
+### JavaScript
+
+* The [JSHint](https://jshint.com/) 
+
+![JavaScript Validator](assets/documentation/validator-js.png)
+
 ## Testing User Stories from User Experience
 
 ### First Time Visitor Goals
+
 * As a First Time Visitor, As a First Time Visitor, I want to easly understand the main purpose of the site and learn more about the what the site has to offer.
     * a
 * As a First Time Visitor,  want to be able to easily navigate throughout the site to find content.
@@ -119,6 +193,7 @@
 * As a First Time Visitor, I want to be able to experience site's contents.
     * a
 ### Returning Visitors Goals
+
 * As a Returning Visitor, I want to find information about certain boss fights.
     * a
     * a
@@ -130,6 +205,7 @@
     * a
 
 ## HTML
+
 * The [W3C School HTML Validator](https://validator.w3.org/) 
 
 ![HTML Validator](assets/documentation/validator-html-home.png)
@@ -141,12 +217,14 @@
 - On the [Contant Page](assets/documentation/error-validator-html-contact.png) there were errors with `<aria-placeholder>` and `<required>` element in the form so I removed it.
 
 ## CSS
+
 * The [W3C School CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 ![CSS Validator](assets/documentation/validator-css.png)
 
 
 ## JavaScript
+
 * The [JSHint](https://jshint.com/) 
 
 ![JavaScript Validator](assets/documentation/validator-js.png)
