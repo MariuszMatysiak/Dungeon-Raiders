@@ -101,4 +101,57 @@
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
 * [JS](https://en.wikipedia.org/wiki/JavaScript)
-#
+
+# Testing
+## Testing User Stories from User Experience
+
+### First Time Visitor Goals
+* As a First Time Visitor, As a First Time Visitor, I want to easly understand the main purpose of the site and learn more about the what the site has to offer.
+    - 
+ 
+* As a First Time Visitor,  want to be able to easily navigate throughout the site to find content.
+    - 
+    - 
+* As a First Time Visitor, I want to be able to experience site's contents.
+    - 
+    - 
+### Returning Visitors Goals
+* As a Returning Visitor, I want to find information about certain boss fights.
+    - 
+    -  
+* As a Returning Visitor, I want to find information about team compositions.
+    - 
+    - 
+* As a Returning Visitor, I want to find the community links to discord and form.
+    - 
+    - 
+
+## HTML
+* The [W3C School HTML Validator](https://validator.w3.org/) 
+
+![HTML Validator](assets/documentation/validator-html-home.png)
+
+- I fixed errors accured during validation.
+- On the [Home Page](documentation/error-validator-html-home.png) there was an error in the credited code from CodePen, there was `<div>` element inside of `<b>` element. Also `<section>' were missing headings, so I added to the first section, and section with wow logo changed to `<figure>' element, and section with guide info chnaged to `<aside>`.
+- On the [Compositions Page](assets/documentation/error-validator-html-comps.png) there was an error with `<p>` element without closing tag, so I removed it because during content implementation I haven't notice it.
+- On the [Dungeons Page](assets/documentation/error-validator-html-dungs.png) there were errors with missing `<alt>` elements in the `<img>` element so I've add it, and warning with section without heading.
+- On the [Contant Page](assets/documentation/error-validator-html-dungs.png) there were errors with `<aria-placeholder>` and `<required>` element in the form so I removed it.
+
+## CSS
+* The [W3C School CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+![CSS Validator](assets/documentation/validator-css.png)
+
+
+## JavaScript
+* The [JSHint](https://jshint.com/) 
+
+![JavaScript Validator](assets/documentation/validator-js.png)
+
+
+
+# Technologies Used
+## Languages Used:
+* HTML5
+* CSS3
+* JavaScript
