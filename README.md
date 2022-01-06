@@ -204,30 +204,12 @@ The [W3C School HTML Validator](https://validator.w3.org/)
     * a
     * a
 
-## HTML
+## Further Testing 
 
-* The [W3C School HTML Validator](https://validator.w3.org/) 
-
-![HTML Validator](assets/documentation/validator-html-home.png)
-
-- I fixed errors accured during validation.
-- On the [Home Page](assets/documentation/error-validator-html-home.png) there was an error in the credited code from CodePen, there was `<div>` element inside of `<b>` element. Also `<section>' were missing headings, so I added to the first section, and section with wow logo changed to `<figure>' element, and section with guide info chnaged to `<aside>`.
-- On the [Compositions Page](assets/documentation/error-validator-html-comps.png) there was an error with `<p>` element without closing tag, so I removed it because during content implementation I haven't notice it.
-- On the [Dungeons Page](assets/documentation/error-validator-html-dungs.png) there were errors with missing `<alt>` elements in the `<img>` element so I've add it, and warning with section without heading.
-- On the [Contant Page](assets/documentation/error-validator-html-contact.png) there were errors with `<aria-placeholder>` and `<required>` element in the form so I removed it.
-
-## CSS
-
-* The [W3C School CSS Validator](https://jigsaw.w3.org/css-validator/)
-
-![CSS Validator](assets/documentation/validator-css.png)
-
-
-## JavaScript
-
-* The [JSHint](https://jshint.com/) 
-
-![JavaScript Validator](assets/documentation/validator-js.png)
+ * The Website was tested on Google Chrome, Firefox and Miscrosoft Edge browsers. 
+ * The website was viewed on a variety of devices such as Desktop, Laptop, Tablet- Samsung Tab 3, iPhone 12 Pro, iPhone 12 Pro Max.
+ * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues. See the results below:
+    * 
 
 
 
