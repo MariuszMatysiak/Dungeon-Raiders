@@ -119,14 +119,6 @@ main {
     background-attachment: fixed;
 }
 
-.home-section-one p {
-    font-size: 40px;
-    font-weight: bold;
-    transition: all 0.5s ease;
-    color: var(--accentColorLight);
-    text-shadow: 2px 2px 4px #262626;
-}
-
 /* Credit for https://css-tricks.com/design-considerations-text-images/ */
 .home-section-one::before {
     content: "";
@@ -172,7 +164,7 @@ main {
     float: left;
     margin-right: 0.3em;
 }
-.Iam b {
+.Iam .filter {
     float: left;
     overflow: hidden;
     position: relative;
