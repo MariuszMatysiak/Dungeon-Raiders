@@ -269,7 +269,7 @@ main {
   justify-content: center;
 }
 
-.header-comps {
+.header {
   font-size: 40px;
   font-weight: bold;
   transition: all 0.5s ease;
@@ -307,7 +307,9 @@ main {
   border-right: none;
 }
 
-.comps-text {
+.styled-text {
+  font-size: 22px;
+  font-weight: 100;
   color: var(--fontNavColor);
 }
 
@@ -536,6 +538,10 @@ font-size: 24px;
   }
   
   @media only screen and (max-width: 480px) {
+    .header {
+      font-size: 36px;
+    }
+
     .home-section-one p {
       margin: 25px 10px;
     }
