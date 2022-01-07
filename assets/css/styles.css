@@ -1,52 +1,52 @@
 :root {
-    --navColor: #333;
-    --fontNavColor: #fff;
-    --fontConentColor: #999;
-    --accentColor: #e7723c;
-    --accentColorLight: #ffbc9d;
-    --backgroundColor: #262626;
-    --footerColor: #1a1a1a;
-    --font: 'Roboto', sans-serif;
-    --fontNav: 'Quicksand', sans-serif;
-    --fontFooter: 'Inconsolata', monospace;
+  --navColor: #333;
+  --fontNavColor: #fff;
+  --fontConentColor: #999;
+  --accentColor: #e7723c;
+  --accentColorLight: #ffbc9d;
+  --backgroundColor: #262626;
+  --footerColor: #1a1a1a;
+  --font: 'Roboto', sans-serif;
+  --fontNav: 'Quicksand', sans-serif;
+  --fontFooter: 'Inconsolata', monospace;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: var(--font);
-    color: var(--fontConentColor);
-    background-color: var(--backgroundColor);
-    margin: 0;
+  font-family: var(--font);
+  color: var(--fontConentColor);
+  background-color: var(--backgroundColor);
+  margin: 0;
 }
 
-/* navbar styles */
+/* Navbar styles */
 .navbar {
-    background-color: var(--navColor); 
-    font-family: var(--fontNav);
-    opacity: 0.95;
-    position: fixed;
-    display: flex;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    z-index: 3;
-    user-select: none;
+  background-color: var(--navColor); 
+  font-family: var(--fontNav);
+  opacity: 0.95;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 3;
+  user-select: none;
 }
 
 .logo {
-    position: absolute;
-    height: 95%;
-    width: auto;
-    user-select: none;
-    left: 20px;
+  position: absolute;
+  height: 95%;
+  width: auto;
+  user-select: none;
+  left: 20px;
 }
 
 .logo-mobile {
-    display: none;
+  display: none;
 }
 
 .hamburger {
@@ -54,43 +54,43 @@ body {
 }
 
 .menu-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .menu-item a {
-    text-decoration: none;
-    color: var(--fontNavColor);
-    padding: 10px;
-    font-size: 24px;
+  text-decoration: none;
+  color: var(--fontNavColor);
+  padding: 10px;
+  font-size: 24px;
 }
 
 .menu-item a:hover {
-    color: var(--accentColor);
+  color: var(--accentColor);
 }
 
 .menu-item a:active {
-    color: var(--fontConentColor);
+  color: var(--fontConentColor);
 }
 
 .nav-highlight a {
-    color: var(--accentColor);
-    border-bottom: 1px solid var(--accentColor);
+  color: var(--accentColor);
+  border-bottom: 1px solid var(--accentColor);
 }
-/*  end of navbar styles */
+/*  End of navbar styles */
 
-/* home page main content styles */
+/* Home page main content styles */
 .section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 main {
@@ -99,10 +99,10 @@ main {
 }
 
 .hero-image {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
 }
 
 .hero-image-home {
@@ -110,151 +110,150 @@ main {
   background-position: center top;
   padding-top: 50px;
   overflow: hidden;
-
 }
 
 .home-section-one {
-    height: 80vh;
-    transition: all 0.5s ease;
-    background: inherit;
-    background-attachment: fixed;
+  height: 80vh;
+  transition: all 0.5s ease;
+  background: inherit;
+  background-attachment: fixed;
 }
 
 /* Credit for https://css-tricks.com/design-considerations-text-images/ */
 .home-section-one::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 65%;
-    background: inherit;
-    background-attachment: fixed;
-    -webkit-filter: blur(3px);
-    filter: blur(3px);
-    z-index: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 65%;
+  background: inherit;
+  background-attachment: fixed;
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+  z-index: 0;
 }
 /* End of credits */
 
 .text {
-    margin: 0;
-    position: relative;
+  margin: 0;
+  position: relative;
 }
 
 .home-section-two {
-    background-color: var(--navColor);
-    z-index: 1;
-    user-select: none;
+  background-color: var(--navColor);
+  z-index: 1;
+  user-select: none;
 }
 
 .wow-logo {
-    max-width: 70%;
-    position: absolute;
-    transition: all 0.5s ease;
-    z-index: 1;
-    user-select: none;
+  max-width: 70%;
+  position: absolute;
+  transition: all 0.5s ease;
+  z-index: 1;
+  user-select: none;
 }
 
 /* Credits code https://codepen.io/JacobStone420/pen/dyEvl*/
 .Iam {
-    text-align: center;
-    margin: 3em 0;
-    font: normal 40px/50px 'Roboto', sans-serif;
-    color: var(--fontConentColor);
+  text-align: center;
+  margin: 3em 0;
+  font: normal 40px/50px 'Roboto', sans-serif;
+  color: var(--fontConentColor);
 }
 .Iam p {
-    height: 50px;
-    float: left;
-    margin-right: 0.3em;
+  height: 50px;
+  float: left;
+  margin-right: 0.3em;
 }
 .Iam .filter {
-    float: left;
-    overflow: hidden;
-    position: relative;
-    height: 50px;
-    top: 40px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+  top: 40px;
 }
 .Iam .innerIam {
-    display: inline-block;
-    color: #e7723c;
-    position: relative;
-    white-space: nowrap;
-    top: 0;
-    left: 0;
+  display: inline-block;
+  color: #e7723c;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
 
-    /*animation*/
-    -webkit-animation:move 10s;
-        -moz-animation:move 10s;
-        -ms-animation:move 10s;
-        -o-animation:move 10s;
-            animation:move 10s;
-    /*animation-iteration-count*/
-    -webkit-animation-iteration-count:infinite;
-        -moz-animation-iteration-count:infinite;
-        -ms-animation-iteration-count:infinite;
-        -o-animation-iteration-count:infinite;
-            animation-iteration-count:infinite;
-    /*animation-delay*/
-    -webkit-animation-delay:1s;
-        -moz-animation-delay:1s;
-        -ms-animation-delay:1s;
-        -o-animation-delay:1s;
-            animation-delay:1s;
-    }
-    @keyframes move{
-    0%  { top: 0px; }
-    12.5% { top: -50px; }
-    25% { top: -100px; }
-    37.5% { top: -150px; }
-    50% { top: -200px; }
-    62.5% { top: -250px; }
-    75% { top: -300px; }
-    87.5% { top: -350px; }
-    }
+  /*animation*/
+  -webkit-animation:move 10s;
+      -moz-animation:move 10s;
+      -ms-animation:move 10s;
+      -o-animation:move 10s;
+          animation:move 10s;
+  /*animation-iteration-count*/
+  -webkit-animation-iteration-count:infinite;
+      -moz-animation-iteration-count:infinite;
+      -ms-animation-iteration-count:infinite;
+      -o-animation-iteration-count:infinite;
+          animation-iteration-count:infinite;
+  /*animation-delay*/
+  -webkit-animation-delay:1s;
+      -moz-animation-delay:1s;
+      -ms-animation-delay:1s;
+      -o-animation-delay:1s;
+          animation-delay:1s;
+  }
+  @keyframes move{
+  0%  { top: 0px; }
+  12.5% { top: -50px; }
+  25% { top: -100px; }
+  37.5% { top: -150px; }
+  50% { top: -200px; }
+  62.5% { top: -250px; }
+  75% { top: -300px; }
+  87.5% { top: -350px; }
+  }
 
-    @-webkit-keyframes move {
-    0%  { top: 0px; }
-    12.5% { top: -50px; }
-    25% { top: -100px; }
-    37.5% { top: -150px; }
-    50% { top: -200px; }
-    62.5% { top: -250px; }
-    75% { top: -300px; }
-    87.5% { top: -350px; }
-    }
-    @-moz-keyframes move {
-    0%  { top: 0px; }
-    12.5% { top: -50px; }
-    25% { top: -100px; }
-    37.5% { top: -150px; }
-    50% { top: -200px; }
-    62.5% { top: -250px; }
-    75% { top: -300px; }
-    87.5% { top: -350px; }
-    }
-    @-o-keyframes move {
-    0%  { top: 0px; }
-    12.5% { top: -50px; }
-    25% { top: -100px; }
-    37.5% { top: -150px; }
-    50% { top: -200px; }
-    62.5% { top: -250px; }
-    75% { top: -300px; }
-    87.5% { top: -350px; }
-    }
-    @keyframes move {
-    0%  { top: 0px; }
-    12.5% { top: -50px; }
-    25% { top: -100px; }
-    37.5% { top: -150px; }
-    50% { top: -200px; }
-    62.5% { top: -250px; }
-    75% { top: -300px; }
-    87.5% { top: -350px; }
+  @-webkit-keyframes move {
+  0%  { top: 0px; }
+  12.5% { top: -50px; }
+  25% { top: -100px; }
+  37.5% { top: -150px; }
+  50% { top: -200px; }
+  62.5% { top: -250px; }
+  75% { top: -300px; }
+  87.5% { top: -350px; }
+  }
+  @-moz-keyframes move {
+  0%  { top: 0px; }
+  12.5% { top: -50px; }
+  25% { top: -100px; }
+  37.5% { top: -150px; }
+  50% { top: -200px; }
+  62.5% { top: -250px; }
+  75% { top: -300px; }
+  87.5% { top: -350px; }
+  }
+  @-o-keyframes move {
+  0%  { top: 0px; }
+  12.5% { top: -50px; }
+  25% { top: -100px; }
+  37.5% { top: -150px; }
+  50% { top: -200px; }
+  62.5% { top: -250px; }
+  75% { top: -300px; }
+  87.5% { top: -350px; }
+  }
+  @keyframes move {
+  0%  { top: 0px; }
+  12.5% { top: -50px; }
+  25% { top: -100px; }
+  37.5% { top: -150px; }
+  50% { top: -200px; }
+  62.5% { top: -250px; }
+  75% { top: -300px; }
+  87.5% { top: -350px; }
 }
 /* End of credits */
 
-/* end of home page main styles */
+/* End of home page main styles */
 
 /* Compositions page styles */
 .main-content-comps {
@@ -344,6 +343,15 @@ main {
 .dungeon-image {
   padding: 0 2px;
   user-select: none;
+  opacity: 0.6;
+}
+
+.dungeon-image:hover {
+  opacity: 1;
+}
+
+.dungeon-image img {
+  width: 86px;
 }
 
 .dungeon-section {
@@ -387,19 +395,6 @@ section:target {
 .grid-item-bosses:nth-child(2n) {
   border-right: none;
 }
-
-.dungeon-image {
-  opacity: 0.6;
-}
-
-.dungeon-image:hover {
-  opacity: 1;
-}
-
-.dungeon-image img {
-  width: 86px;
-}
-
 /* End of Dungeons main content style */
 
 /* Contact page styles */
@@ -428,9 +423,11 @@ form {
 fieldset {
   margin: 15px;
 }
+
 legend.header > h2 {
   font-size: 32px;
 }
+
 .styled-text h3 {
   text-align: center;
 }
@@ -444,7 +441,9 @@ input {
   width: 100%;
 }
 
-input:hover, select:hover, textarea:hover {
+input:hover, 
+select:hover, 
+textarea:hover {
   background-color: var(--accentColorLight);
 }
 
@@ -485,7 +484,6 @@ select {
 .button-form:hover {
   background-color: var(--accentColor);
 }
-
 /* End of contact page styles */
 
 /* Footer styles */
@@ -499,11 +497,11 @@ footer {
 }
 
 footer p {
-font-size: 16px;
-text-align: center;
-margin: 0;
-color: var(--fontConentColor);
-font-family: var(--fontFooter);
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  color: var(--fontConentColor);
+  font-family: var(--fontFooter);
 }
 
 footer span {
@@ -511,18 +509,18 @@ footer span {
 }
 
 footer a {
-text-decoration: none;
-margin: 0 4px;
-color: var(--fontConentColor);
+  text-decoration: none;
+  margin: 0 4px;
+  color: var(--fontConentColor);
 }
 
 footer a:hover {
-color: #7289da;
-transition: all 0.5s ease;
+  color: #7289da;
+  transition: all 0.5s ease;
 }
 
 footer a i {
-font-size: 24px;
+  font-size: 24px;
 }
 /* End of footer styles */
 
@@ -536,16 +534,22 @@ font-size: 24px;
   .text p {
     font-size: 50px;
   }
+  /* End of home page */
 
-  /* end of home page */
   /* Composition page  */
-
   .comps-text {
     margin: 0 3em;
   }
-
   /* End of composition page */
+
   /* Dungeon page */
+  .dungeon-image {
+    padding: 0 10px;
+  }
+
+  .dungeon-image img {
+    width: 100%;
+  }
 
   .header-dungeons {
     padding: 20px 0;
@@ -577,49 +581,42 @@ font-size: 24px;
   .grid-item-bosses:nth-last-child(1) {
     border-right: none;
   }
-
-  .dungeon-image {
-    padding: 0 10px;
-  }
-
-  .dungeon-image img {
-    width: 100%;
-  }
-
   /* End of dungeon page */
+
   /* Contact Page */
-  
   .section-form {
     padding-right: 10%;
   }
-
   /* End of Contact Page */
-
 }
 
 @media only screen and (max-height: 745px) {
+  /* Home page */
   .wow-logo {
     max-width: 40%;
   }
+  /* End of home page */
 }
 
 @media only screen and (max-width: 890px) {
+  /* Home page */
   .Iam {
     display: flex;
     flex-direction: column;
   }
+  /* End of home page */
 
   /* Dungeons page  */
-  .header-dungeons {
-    font-size: 40px;
-  }
-
   .sticky-element {
     top: 80px;
   }
 
   .dungeon-image {
     opacity: 1;
+  }
+
+  .header-dungeons {
+    font-size: 40px;
   }
 
   .grid-bosses-mobile {
@@ -635,10 +632,9 @@ font-size: 24px;
   .grid-item-bosses:nth-last-child(1) {
     border-bottom: none;
   }
-
   /* End of Dungeon page */
-  /* Contact Page */
 
+  /* Contact Page */
   .hero-image-contact {
     background-position: left bottom;
   }
@@ -646,136 +642,149 @@ font-size: 24px;
 }
 
 @media only screen and (max-width: 767px) {
+  /* Home Page */
   main {
     padding-top: 50px;
   }
   
-    .navbar {
-      height: 50px;
-    }
-  
-    .nav-highlight a {
-      border-bottom: none;
-    }
-    
-    .logo-mobile {
-      display: block;
-    }
-  
-    .logo-desktop {
-      display: none;
-    }
+  .navbar {
+    height: 50px;
+  }
 
-    .menu-list {
-      display: none;
-      position: absolute;
-      width: 100%;
-      top:100%;
-      height: auto;
-      text-align: center;
-      background-color: var(--navColor);
-    }
-
-    .menu-list.show {
-      display: block;
-    }
-
-    .hamburger {
-      display: block;
-      position: absolute;
-      top: 5%;
-      right: 5%;
-      font-size: 38px;
-      color: var(--fontNavColor);
-      background-color: transparent;
-      border: 0;
-    }
-
-    li.menu-item {
-      margin: 5px 0;
-    }
-  
-    .hero-image {
-      padding-top: 0;
-    }
-    .home-section-one p {
-      font-size: 32px;
-      transition: all 0.5s ease;
-    }
-
-    /* Compositions page */
-
-    .grid-container {
-      grid-template-columns: 100%;
-    }
-
-    .grid-item {
-      border-right: none;
-      border-bottom: 1px solid var(--navColor);
-    }
-
-    .grid-item:nth-child(4n) {
-      border-bottom: none;
-    }
-
-    .sticky-element {
-      top: 50px;
-    }
-
-    .sticky-element-comps {
-      position: sticky;
-      position: -webkit-sticky;
-      top: 50px;
-      background-color: var(--backgroundColor);
-      width: 100%;
-    }
-
-    /* End of compositions page */
-    /* Dungeons page */
-    .header-dungeons {
-      padding: 20px 0;
-    }
-
-    .dungeon-image-wrapper {
-      padding: 10px 0 0 0;
-    }
-
-    .dungeon-image img {
-      width: 56px;
-    }
-
-    .grid-item-bosses {
-      padding: 0;
-    }
-
-    /* End of Dungeons page */
-    /* contact page */
-
-    .hero-image-contact {
-      padding-top: 50px;
-    }
-    /* end contact page */
+  .nav-highlight a {
+    border-bottom: none;
   }
   
-  @media only screen and (max-width: 480px) {
-    .header {
-      font-size: 36px;
+  .logo-mobile {
+    display: block;
+  }
+
+  .logo-desktop {
+    display: none;
+  }
+
+  .menu-list {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top:100%;
+    height: auto;
+    text-align: center;
+    background-color: var(--navColor);
+  }
+
+  .menu-list.show {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 38px;
+    color: var(--fontNavColor);
+    background-color: transparent;
+    border: 0;
+  }
+
+  li.menu-item {
+    margin: 5px 0;
+  }
+
+  .hero-image {
+    padding-top: 0;
+  }
+  .home-section-one p {
+    font-size: 32px;
+    transition: all 0.5s ease;
+  }
+  /* End of home page */
+
+  /* Compositions page */
+  .grid-container {
+    grid-template-columns: 100%;
+  }
+
+  .grid-item {
+    border-right: none;
+    border-bottom: 1px solid var(--navColor);
+  }
+
+  .grid-item:nth-child(4n) {
+    border-bottom: none;
+  }
+
+  .sticky-element-comps {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 50px;
+    background-color: var(--backgroundColor);
+    width: 100%;
+  }
+  /* End of compositions page */
+
+  /* Dungeons page */
+  .sticky-element {
+    top: 50px;
+  }
+
+  .dungeon-image-wrapper {
+    padding: 10px 0 0 0;
+  }
+
+  .dungeon-image img {
+    width: 56px;
+  }
+
+  .header-dungeons {
+    padding: 20px 0;
+  }
+
+  .grid-item-bosses {
+    padding: 0;
+  }
+  /* End of Dungeons page */
+
+  /* Contact page */
+  .hero-image-contact {
+    padding-top: 50px;
+  }
+  /* End contact page */
+}
+
+  
+@media only screen and (max-width: 480px) {
+  /* Home page */
+  .header {
+    font-size: 36px;
+  }
+
+  .home-section-one p {
+    margin: 25px 10px;
+  }
+
+  .wow-logo {
+    max-width: 60%;
+  }
+  
+  .Iam {
+      font: normal 30px/40px 'Roboto', sans-serif;
+      margin: 5em 0;
     }
 
-    .home-section-one p {
-      margin: 25px 10px;
-    }
-
-    .wow-logo {
-      max-width: 60%;
+    @keyframes move{
+    0%  { top: 0px; }
+    12.5% { top: -40px; }
+    25% { top: -80px; }
+    37.5% { top: -120px; }
+    50% { top: -160px; }
+    62.5% { top: -200px; }
+    75% { top: -240px; }
+    87.5% { top: -280px; }
     }
     
-    .Iam {
-        font: normal 30px/40px 'Roboto', sans-serif;
-        margin: 5em 0;
-      }
-  
-      @keyframes move{
+    @-webkit-keyframes move {
       0%  { top: 0px; }
       12.5% { top: -40px; }
       25% { top: -80px; }
@@ -785,85 +794,72 @@ font-size: 24px;
       75% { top: -240px; }
       87.5% { top: -280px; }
       }
-      
-      @-webkit-keyframes move {
-        0%  { top: 0px; }
-        12.5% { top: -40px; }
-        25% { top: -80px; }
-        37.5% { top: -120px; }
-        50% { top: -160px; }
-        62.5% { top: -200px; }
-        75% { top: -240px; }
-        87.5% { top: -280px; }
-        }
-      @-moz-keyframes move {
-        0%  { top: 0px; }
-        12.5% { top: -40px; }
-        25% { top: -80px; }
-        37.5% { top: -120px; }
-        50% { top: -160px; }
-        62.5% { top: -200px; }
-        75% { top: -240px; }
-        87.5% { top: -280px; }
-        }
-      @-o-keyframes move {
-        0%  { top: 0px; }
-        12.5% { top: -40px; }
-        25% { top: -80px; }
-        37.5% { top: -120px; }
-        50% { top: -160px; }
-        62.5% { top: -200px; }
-        75% { top: -240px; }
-        87.5% { top: -280px; }
-        }
-      @keyframes move {
-        0%  { top: 0px; }
-        12.5% { top: -40px; }
-        25% { top: -80px; }
-        37.5% { top: -120px; }
-        50% { top: -160px; }
-        62.5% { top: -200px; }
-        75% { top: -240px; }
-        87.5% { top: -280px; }
-        }
-  
-      .Iam p {
-        height: 40px;
-        float: left;
-        margin-right: 0.3em;
+    @-moz-keyframes move {
+      0%  { top: 0px; }
+      12.5% { top: -40px; }
+      25% { top: -80px; }
+      37.5% { top: -120px; }
+      50% { top: -160px; }
+      62.5% { top: -200px; }
+      75% { top: -240px; }
+      87.5% { top: -280px; }
       }
-      .Iam .filter {
-        height: 40px;
-        top: 30px;
+    @-o-keyframes move {
+      0%  { top: 0px; }
+      12.5% { top: -40px; }
+      25% { top: -80px; }
+      37.5% { top: -120px; }
+      50% { top: -160px; }
+      62.5% { top: -200px; }
+      75% { top: -240px; }
+      87.5% { top: -280px; }
+      }
+    @keyframes move {
+      0%  { top: 0px; }
+      12.5% { top: -40px; }
+      25% { top: -80px; }
+      37.5% { top: -120px; }
+      50% { top: -160px; }
+      62.5% { top: -200px; }
+      75% { top: -240px; }
+      87.5% { top: -280px; }
       }
 
-      /* Dungeon page */
+    .Iam p {
+      height: 40px;
+      float: left;
+      margin-right: 0.3em;
+    }
+    .Iam .filter {
+      height: 40px;
+      top: 30px;
+    }
+    /* End of home page */
 
-      .dungeon-image {
-        padding: 0;
-      }
+    /* Dungeon page */
+    .dungeon-image {
+      padding: 0;
+    }
 
-      .dungeon-image img {
-        width: 40px;
-      }
+    .dungeon-image img {
+      width: 40px;
+    }
 
-      .header-dungeons {
-        font-size: 30px;
-      }
+    .header-dungeons {
+      font-size: 30px;
+    }
+    /* End of dungeon page */
 
-      /* end of dungeon page */
-      /* Contact page */
+    /* Contact page */
+    .section-form {
+      padding: 0px;
+    }
+    /* End of contact page */
 
-      .section-form {
-        padding: 0px;
-      }
-
-      /* End of contact page */
-      /* Footer styling */
-
-      footer p span {
-        display: none;
-      }
-
-      /* End of footer styling */
-  }/* End of mobile design */
+    /* Footer styling */
+    footer p span {
+      display: none;
+    }
+    /* End of footer styling */
+}
+/* End of mobile design */
