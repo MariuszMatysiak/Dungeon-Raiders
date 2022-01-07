@@ -395,7 +395,7 @@ section:target {
   opacity: 1;
 }
 
-.dungeon-image a img {
+.dungeon-image img {
   width: 86px;
 }
 
@@ -581,7 +581,7 @@ font-size: 24px;
     padding: 0 10px;
   }
 
-  .dungeon-image a img {
+  .dungeon-image img {
     width: 100%;
   }
 
@@ -739,7 +739,7 @@ font-size: 24px;
       padding: 10px 0 0 0;
     }
 
-    .dungeon-image a img {
+    .dungeon-image img {
       width: 56px;
     }
 
@@ -842,7 +842,7 @@ font-size: 24px;
         padding: 0;
       }
 
-      .dungeon-image a img {
+      .dungeon-image img {
         width: 40px;
       }
 
