@@ -307,3 +307,23 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 # Credit
 
+## Images
+* [Contact page Background Image](https://www.aresgalaxy.org/pc-games/world-of-warcraft/can-my-laptop-or-pc-run-world-of-warcraft-shadowlands)
+* [Wow logo on the Home page](https://worldofwarcraft.com/en-us/shadowlands)
+* [Tank, Healer, DPS role icons](http://www.tootthie-le-geek.com/geek/being-a-raid-leader-in-warcraft-the-fun-never-stops/) - I've used Photopea to crop it.
+* Background image on the home page has been taken as a screenshot in the game World of Warcraft:Shadowlands by my friend [Lisov-BurningLegion](https://raider.io/characters/eu/burning-legion/Lisov)
+* [All the remaining World of Warcraft oriented images](https://www.wowhead.com/)- Which is: Hero image and class icon images(Cropped and styled in photopea by me) on the composition page, bosses and dungeons(Cropped and styled in photopea by me) miniatures on the dungeons page.
+
+
+## Design
+* [Logo design](https://hatchful.shopify.com/) - I've created two logos on the website for the project.
+* [Coolors](https://coolors.co/) - I've chosen this website to show colour palette in the README file and provide a direct link.
+
+## Code
+* [Sticky footer](https://css-tricks.com/couple-takes-sticky-footer/)
+* [Sticky element](https://stackoverflow.com/questions/45221719/apply-position-sticky-to-child-of-a-div) - I've used this code to stick icons to the top of the screen on mobile for composition and dungeons pages.
+* [Dungeon guides in a single html file](https://css-tricks.com/a-whole-website-in-a-single-html-file/)
+* [Hamburger button](https://www.youtube.com/watch?v=ydZc17rlR5E)
+* [Blurred background on the home page](https://css-tricks.com/design-considerations-text-images/)
+* [Home page guide info animation](https://codepen.io/JacobStone420/pen/dyEvl)
+
