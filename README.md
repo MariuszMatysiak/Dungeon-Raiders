@@ -211,6 +211,9 @@ View on mobile.
 * [Am I Responsive?](http://ami.responsivedesign.is/#) - I've used Am I Responsive website to create mockup image for this README file.
 * [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Fmariuszmatysiak.github.io%2FDungeon-Raiders%2F) - I've used the website to check responsivenes across the most common mobile screen sizes.
 * [Photopea](https://www.photopea.com/) - I've used photopea to create circled dungeon and class icons with the frame around them.
+* [Favicon](https://favicon.io/) - I've used this website to create favicon.
+
+ ![Favicon](assets/documentation/favicon.png)
 
 
 # Testing
@@ -284,6 +287,9 @@ The [W3C School HTML Validator](https://validator.w3.org/)
     ![Compositions before after](assets/documentation/before-now-comp.png)
 
     * With testing on larger screens sizes I've noticed being able to highlight text that's part of estetic looks desing didn't leave the best experience. It has been noticed and addressed with user-select: none; for the text parts of website that serve as a visual design of the website. 
+    * Initially on the Dungeons page navigation bar opacity restriction was only lifted while hovered. It had negative impact on identifying which of the dungeons is currently active. It has been addressed and currently the active link remains fully visible while browsing the page's contents.
+
+    ![Dungeon active navbar](assets/documentation/before-now-dung.png)
 
 # Deployment
 
@@ -311,7 +317,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 * [Contact page Background Image](https://www.aresgalaxy.org/pc-games/world-of-warcraft/can-my-laptop-or-pc-run-world-of-warcraft-shadowlands)
 * [Wow logo on the Home page](https://worldofwarcraft.com/en-us/shadowlands)
 * [Tank, Healer, DPS role icons](http://www.tootthie-le-geek.com/geek/being-a-raid-leader-in-warcraft-the-fun-never-stops/) - I've used Photopea to crop it.
-* Background image on the home page has been taken as a screenshot in the game World of Warcraft:Shadowlands by my friend [Lisov-BurningLegion](https://raider.io/characters/eu/burning-legion/Lisov)
+* Background image on the home page has been taken as a screenshot in the game World of Warcraft:Shadowlands by a friend of mine- [Lisov-BurningLegion](https://raider.io/characters/eu/burning-legion/Lisov)
 * [All the remaining World of Warcraft oriented images](https://www.wowhead.com/)- Which is: Hero image and class icon images(Cropped and styled in photopea by me) on the composition page, bosses and dungeons(Cropped and styled in photopea by me) miniatures on the dungeons page.
 
 
