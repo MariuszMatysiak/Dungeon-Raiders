@@ -343,10 +343,11 @@ main {
 .dungeon-image {
   padding: 0 2px;
   user-select: none;
-  opacity: 0.6;
+  opacity: 0.4;
 }
 
-.dungeon-image:hover {
+.dungeon-image:hover,
+.dungeon-image.active {
   opacity: 1;
 }
 
@@ -609,10 +610,6 @@ footer a i {
   /* Dungeons page  */
   .sticky-element {
     top: 80px;
-  }
-
-  .dungeon-image {
-    opacity: 1;
   }
 
   .header-dungeons {
