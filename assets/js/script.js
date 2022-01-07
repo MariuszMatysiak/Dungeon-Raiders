@@ -4,7 +4,7 @@ const hamburger = document.getElementById('hamburger');
 const menuList = document.getElementById('menu-list');
 hamburger.addEventListener('click', () => {
     menuList.classList.toggle('show');
-})
+});
 // End of code credit 
 
 // Code credit: https://stackhowto.com/how-to-get-hash-value-from-url-using-javascript/ for idea of using hash value, excution - Klaudia Matysiak
@@ -19,7 +19,7 @@ hamburger.addEventListener('click', () => {
     });
     const activeLink = document.querySelector(`[href="${window.location.hash}"]`);
     activeLink.classList.add('active');
-}
+};
 
 if (window.location.hash) {
     selectActiveLink();
